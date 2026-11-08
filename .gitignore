@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+ryu-venv*/
+
+# Raw experiment output (large). Keep curated samples in evidence/ instead.
+results/*/
+results_*/
+logs/
+*.log
+!evidence/**/*.log
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
